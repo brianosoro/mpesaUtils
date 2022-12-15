@@ -1,10 +1,15 @@
 # mpesaUtils
 
 Author   : Brian Osoro
+
 Company  : Symatech Labs Ltd
+
 Website  : www.symatechlabs.com
+
 Blog     : www.brianosoro.com
+
 Twitter  : https://twitter.com/OsoroOngera
+
 Email    : brian@symatechlabs.com
 
 

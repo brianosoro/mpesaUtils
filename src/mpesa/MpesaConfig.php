@@ -48,11 +48,11 @@ class MpesaConfig
     }
     
 
-    public function registerURL(CurlHandler $curlHandler)
+    public function registerURL(CurlHandler $curlHandler, $accessToken)
     {
         
-        $this->urlPath = "mpesa/c2b/v2/registerurl";    
-        return $curlHandler->sendRequest("", "POST", "Authorization: Bearer ");
+        $this->urlPath = "mpesa/c2b/v1/registerurl";    
+        return $curlHandler->sendRequest($accessToken, "POST", "Authorization: Bearer ");
 
     }
 

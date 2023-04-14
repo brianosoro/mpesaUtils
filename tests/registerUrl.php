@@ -26,7 +26,11 @@ $mpesaConfig = new MpesaConfig();
 $curl = new CurlHandler($messageParams, $mpesaConfig);
 
 
-echo $mpesaConfig->registerURL($curl);
+echo $mpesaConfig->getAccessToken($curl);
+
+echo $mpesaConfig->registerURL($curl, "ENTER_ACCESS_TOKEN");
+
+
 
 
 

@@ -59,8 +59,6 @@ class CurlHandler
             'Content-Type: application/json'
         ));
 
-        //echo $authorizationType . $accessToken;
-
 		$this->response = curl_exec($this->curl);	
 		curl_close($this->curl);
 		return $this->response;
